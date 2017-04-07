@@ -1,0 +1,163 @@
+p {
+	font-family: 'opensans_regular', sans-serif;
+	color: #2B2B2B;
+}
+
+
+header, section {
+	height: 100vh;
+	background-color: #F6F6F6;
+}
+
+section aside, header aside {
+	width: 5rem;
+	height: 100%;
+	float: left;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+header h1 {
+	color: #2B2B2B;
+	text-align: center;
+	line-height: 100vh;
+
+	font-family: 'opensans_light', sans-serif;
+	font-weight: 200;
+	font-size: 10rem;
+}
+
+
+aside p {
+	font-family: 'opensans_light', sans-serif;
+	width: 30rem;
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+
+	font-size: 2.5rem;
+	margin-left: -12.5rem;
+	margin-top: 30rem;
+}
+
+
+
+
+#section-1 > aside { background-color: #ff5722; }
+#section-3 > aside { background-color: #673ab7; }
+#section-3 > aside > p {
+	width: 50rem;
+	margin-left: -22.5rem;
+	margin-top: 20rem;
+ }
+
+
+#section-2 {
+	background-image: url(../img/img/drone1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+
+	position: relative;
+}
+
+#section-2 div {
+	position: absolute;
+	bottom: 0;
+	left: 5rem;
+
+	background: rgba(255,255,255,0.75);
+	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+
+	padding: 2rem;
+	border-radius: 2px;
+}
+
+.styled_p_small {
+	font-size: 2.5rem;
+	font-family: opensans_light;
+	margin-bottom: 2.5rem;
+}
+.styled_p_medium {
+	font-size: 3.5rem;
+	font-family: opensans_regular;
+	margin-bottom: 2.5rem;
+}
+.styled_p_large {
+	font-size: 4.5rem;
+	font-family: opensans_bold;
+	margin-bottom: 2.5rem;
+}
+
+.card_container {
+	margin-left: 7.5rem;
+}
+.card {
+	display: block;
+	height: 17.5rem;
+	width: 15rem;
+	background-color: white;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+	float: left;
+
+	border-radius: 2px;
+
+	margin: 2.5rem;
+
+
+	position: relative;
+
+
+	overflow: hidden;
+}
+
+
+
+.card p {
+	position: absolute;
+
+	padding: 1.5rem;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid rgba(0, 0, 0, 0.0980392);
+	color: #2B2B2B;
+
+}
+
+
+
+
+
+.button_next {
+	height: 56px;
+	width: 56px;
+	border-radius: 50%;
+	background-color: #536dfe;
+
+	position: fixed;
+	bottom: 2.5rem;
+	right: 2.5rem;
+
+	box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+}
+
+
+
+
+
+
+
+@font-face {
+	font-family: opensans_light;
+	src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+	font-family: opensans_regular;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: opensans_bold;
+	src: url(../fonts/OpenSans-Bold.ttf);
+}
